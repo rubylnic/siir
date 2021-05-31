@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="СИИР. Производство столярных изделий">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>СИИР. Производство столярных изделий</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preload" href="fonts/montserrat-regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/montserrat-medium.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/prata-regular.woff2" as="font" crossorigin="anonymous">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__upper">
+      <div class="container">
+        <div class="header__container">
+          <a class="header__logo" href="/">
+            <svg class="header__svg" width="418" height="100">
+            <use xlink:href="img/sprite_auto.svg#icon-logo"></use>
+          </svg>
+          </a>
+
+          <form class="header__search">
+            <input class="header__input" placeholder="Поиск по сайту">
+          </form>
+        </div>
+        <div class="header__contacts">
+          <div class="header__contacts-container">
+            <a class="header__tel" href="tel:+78124128585" title="+7 (812) 412-85-85">+7 (812) 412-85-85</a>
+            <div class="header__socials">
+              <a class="header__social" href="" title="Instagram">
+                <img src="img/icons/icon-inst.svg" alt="Instagram" width="27" height="27">
+              </a>
+              <a class="header__social" href="" title="Youtube">
+                <img src="img/icons/icon-youtube.svg" alt="Youtube" width="30" height="30">
+              </a>
+              <a class="header__social" href="" title="Vk">
+                <img src="img/icons/icon-vk.svg" alt="Vk" width="30" height="30">
+              </a>
+              <a class="header__social" href="" title="Facebook">
+                <img src="img/icons/icon-fb.svg" alt="Facebook" width="14" height="30">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <nav class="header__lower black-bg nav nav--hidden">
+      <div class="container">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link open-modal" href="#" title="О нас" data-modal="1">О нас</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#" title="Лестницы">Лестницы</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#" title="Интерьер">Интерьер</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#" title="Мебель на заказ">Мебель на заказ</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#" title="Цены">Цены</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#" title="Наши работы">Наши работы</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#" title="Контакты">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="main-slider">
+      <h2 class="visually-hidden">Главный баннер</h2>
+      <div class="container">
+        <p class="main-slider__info">
+          <span>Дизайн проект в 3D, Реалистичный с наложением фото с объекта</span>
+        </p>
+        <picture>
+          <source media="(min-width:460px)" srcset="img/main-d.png" data-srcset="main-d.png">
+          <img class="main-slider__img lazyload" src="img/main-m.png" data-srcset="main-m.png" srcset="img/spinner.svg" alt="Главный баннер">
+        </picture>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container">
+        <h2 class="about__heading heading">О нас</h2>
+        <ul class="about__list">
+          <li class="about__item">
+            <h3 class="about__sub-heading">Более 20 лет создание качественной продукции</h3>
+          </li>
+          <li class="about__item">
+            <h3 class="about__sub-heading">Разработка индивидуальных проектов</h3>
+          </li>
+          <li class="about__item">
+            <h3 class="about__sub-heading">Все виды работ от эскиза до монтажа (в пределах разумного)</h3>
+          </li>
+          <li class="about__item">
+            <h3 class="about__sub-heading">Создание мебели из отличного натурального дерева</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="do">
+      <div class="container">
+        <h2 class="visually-hidden">Виды работ</h2>
+        <ul class="do__cards">
+          <li class="do__card do__card--stairs">
+            <div class="do__card-overlay"></div>
+            <h3 class="do__sub-heading">Лестницы</h3>
+            <div class="do__list">
+              <a class="do__item" href="#" title="Деревянные">Деревянные</a>
+              <a class="do__item" href="#" title="">Металлокаркас лестниц (отдельно каркас и под ключ)</a>
+              <a class="do__item" href="#" title="Отделка бетонных лестниц">Отделка бетонных лестниц</a>
+              <a class="do__item" href="#" title="Отделка металлокаркаса">Отделка металлокаркаса лестницы</a>
+              <a class="do__item" href="#" title="Ограждения: нержавеющее, стекло, ковка">Ограждения: нержавеющее, стекло, ковка</a>
+            </div>
+            </li><li class="do__card do__card--interier">
+              <div class="do__card-overlay"></div>
+              <h3 class="do__sub-heading">Интерьеры</h3>
+              <div class="do__list">
+                <a class="do__item" href="#" title="Домашние">Домашние</a>
+                <a class="do__item" href="#" title="Кабинеты">Кабинеты</a>
+                <a class="do__item" href="#" title="Стеновые панели">Стеновые панели</a>
+                <a class="do__item" href="#" title="Коммерческие (магазины, рестораны, бары)">Коммерческие (магазины, рестораны, бары)</a>
+                <a class="do__item" href="#" title="Фальшь-балки и реечные конструкции">Фальшь-балки и реечные конструкции</a>
+
+              </div>
+            </li>
+            <li class="do__card do__card--furniture">
+              <div class="do__card-overlay"></div>
+              <h3 class="do__sub-heading">Мебель на заказ</h3>
+              <div class="do__list">
+                <a class="do__item" href="#" title="Из МДФ">Из МДФ</a>
+                <a class="do__item" href="#" title="Лофт">Лофт</a>
+                <a class="do__item" href="#" title="Шкафы">Шкафы</a>
+                <a class="do__item" href="#" title="Из массива">Из массива</a>
+                <a class="do__item" href="#" title="Гардеробные">Гардеробные</a>
+              </div>
+            </li>
+        </ul>
+      </div>
+    </section>
+    <section class="design">
+      <div class="container">
+        <h2 class="design__heading heading">Дизайн-проект в 3Д</h2>
+        <div class="design__info">
+          <div class="swiper-button-prev"><svg class="item__svg" width="10" height="15">
+            <use xlink:href="img/sprite_auto.svg#icon-arrow"></use>
+          </svg></div>
+          <div class="swiper-button-next"><svg class="item__svg" width="10" height="15">
+            <use xlink:href="img/sprite_auto.svg#icon-arrow"></use>
+          </svg></div>
+          <div class="swiper-container design__info-slider">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide design__info-slide">Эскиз</li>
+              <li class="swiper-slide design__info-slide">Визуал</li>
+              <li class="swiper-slide design__info-slide">Реалистичный с наложением фото с объекта</li>
+            </ul>
+          </div>
+        </div>
+        <div class="design__slider-container swiper-container">
+          <ul class="design__slider swiper-wrapper">
+            <li class="design__slide swiper-slide">
+              <a class="design__button button" href="#">Перейти</a>
+              <img class="design__img lazyload" src="img/slider-1.jpg" data-srcset="img/slider-1.jpg" srcset="img/spinner.svg" alt="3D Модель интерьера">
+            </li>
+            <li class="design__slide swiper-slide">
+              <a class="design__button button" href="#">Перейти</a>
+              <img class="design__img lazyload" src="img/slider-2.jpg" data-srcset="img/slider-2.jpg" srcset="img/spinner.svg" alt="3D Модель интерьера">
+            </li>
+            <li class="design__slide swiper-slide">
+              <a class="design__button button" href="#">Перейти</a>
+              <img class="design__img lazyload" src="img/slider-3.jpg" data-srcset="img/slider-3.jpg" srcset="img/spinner.svg" alt="3D Модель интерьера">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="catalog">
+      <div class="container">
+        <h2 class="catalog__heading heading">Каталог</h2>
+        <ul class="catalog__list">
+          <li class="catalog__item item">
+            <a href="" class="item__link" title="Отделка бетонной лестницы массивом бука">
+              <div class="item__up">
+                <h3 class="item__heading">Отделка бетонной лестницы массивом бука</h3>
+                <div class="item__overlay"></div>
+                <img class="item__img lazyload" src="img/catalog-2.jpg" data-srcset="img/catalog-2.jpg" srcset="img/spinner.svg" width="540" height="280" alt="Фото Отделка бетонной лестницы массивом бука">
+              </div>
+            </a>
+            <div class="item__bottom">
+              <div class="item__price">от 360 500 руб (под ключ)</div>
+              <a class="item__more" href="#" title="Подробнее">Подробнее</a>
+              <button class="item__button button" type="button">Заказать</button>
+            </div>
+          </li>
+          <li class="catalog__item item">
+            <a class="item__link" href="#">
+              <div class="item__up">
+                <h3 class="item__heading">Прямая лестница на монокосоуре из массива дуба</h3>
+                <div class="item__overlay"></div>
+                <img class="item__img lazyload" src="img/catalog-2.jpg" data-srcset="img/catalog-2.jpg" srcset="img/spinner.svg" width="540" height="280" alt="">
+              </div>
+            </a>
+            <div class="item__bottom">
+              <div class="item__price">от 825 600 руб (под ключ)</div>
+              <a class="item__more" href="#" title="Подробнее">Подробнее</a>
+              <button class="item__button button" type="button">Заказать</button>
+            </div>
+
+          </li>
+          <li class="catalog__item item">
+            <a class="item__link" href="#">
+              <div class="item__up">
+                <h3 class="item__heading">Шкаф-купе со шпоном дуба</h3>
+                <div class="item__overlay"></div>
+                <img class="item__img lazyload" src="img/catalog-2.jpg" data-srcset="img/catalog-2.jpg" srcset="img/spinner.svg" width="540" height="280" alt="">
+              </div>
+            </a>
+            <div class="item__bottom">
+              <div class="item__price">от 372 096 руб (под ключ)</div>
+              <a class="item__more" href="#" title="Подробнее">Подробнее</a>
+              <button class="item__button button" type="button">Заказать</button>
+            </div>
+
+          </li>
+          <li class="catalog__item item">
+            <a class="item__link" href="#">
+              <div class="item__up">
+                <h3 class="item__heading">Лестница в классическом стиле из массива ясеня
+                </h3>
+                <div class="item__overlay"></div>
+                <img class="item__img lazyload" src="img/catalog-2.jpg" data-srcset="img/catalog-2.jpg" srcset="img/spinner.svg" width="540" height="280" alt="">
+              </div>
+            </a>
+            <div class="item__bottom">
+              <div class="item__price">от 963 000 руб (под ключ)</div>
+              <a class="item__more" href="#" title="Подробнее">Подробнее</a>
+              <button class="item__button button" type="button">Заказать</button>
+            </div>
+
+          </li>
+        </ul>
+        <button class="catalog__show-more">Показать еще ...</button>
+      </div>
+    </section>
+    <section class="stages">
+      <div class="container">
+        <h2 class="stages__heading heading">Этапы выполнения</h2>
+        <ul class="stages__list">
+          <li class="stages__item">
+            <img class="stages__img" src="img/icons/icon-stage1.svg" width="75" height="82" alt=""> Замер выполняется в течение 1-2 раб. дней со дня подачи заявки заказчиком на проведение замера.
+          </li>
+          <li class="stages__item">
+            <img class="stages__img" src="img/icons/icon-stage2.svg" width="75" height="82" alt=""> Предложение выполняется в течение 1-3 раб. дней с момента получения параметров лестницы от заказчика или замерщика.
+          </li>
+          <li class="stages__item">
+            <img class="stages__img" src="img/icons/icon-stage3.svg" width="75" height="82" alt=""> Происходит ознакомление и подписание договора на изготовление, монтаж лестницы.
+          </li>
+          <li class="stages__item">
+            <img class="stages__img" src="img/icons/icon-stage4.svg" width="75" height="82" alt=""> Конструкторское бюро подготавливает проект (7-10 раб. дней), его согласовывает и подписывает заказчик (1-2 раб. дня).
+          </li>
+          <li class="stages__item">
+            <img class="stages__img" src="img/icons/icon-stage5.svg" width="75" height="82" alt=""> Изготовление лестниц за 40-50 раб. дней в зависимости от сложности.
+          </li>
+          <li class="stages__item">
+            <img class="stages__img" src="img/icons/icon-stage6.svg" width="75" height="82" alt=""> Монтаж лестницы согласно всем этапам составленного проекта в течение 2-7 раб. дней в зависимости от сложности работы.
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="works">
+      <div class="container">
+        <h2 class="catalog__heading heading">Наши работы</h2>
+        <ul class="catalog__list">
+          <li class="catalog__item item">
+            <a class="item__link" href="#">
+              <div class="item__up">
+                <h3 class="item__heading">Деревянная лестница со скрытым шкафом</h3>
+                <div class="item__overlay"></div>
+                <img class="item__img lazyload" src="img/catalog-1.jpg" data-srcset="img/catalog-1.jpg" srcset="img/spinner.svg" width="540" height="280" alt="Фото Деревянная лестница со скрытым шкафом">
+              </div>
+            </a>
+            <div class="item__bottom">
+              <div class="item__icons">
+                <div class="item__icon photo">
+                  <svg class="item__svg" width="40" height="40">
+                      <use xlink:href="img/sprite_auto.svg#icon-photo"></use>
+                    </svg>
+                </div>
+                <div class="item__icon video">
+                  <svg class="item__svg" width="40" height="40">
+                      <use xlink:href="img/sprite_auto.svg#icon-video"></use>
+                    </svg>
+                </div>
+              </div>
+              <button class="item__button button" type="button">Заказать</button>
+            </div>
+
+          </li>
+          <li class="catalog__item item">
+            <a class="item__link" href="#">
+              <div class="item__up">
+                <h3 class="item__heading">Лестница из бука со стеклянным ограждением</h3>
+                <div class="item__overlay"></div>
+                <img class="item__img lazyload" src="img/catalog-2.jpg" data-srcset="img/catalog-2.jpg" srcset="img/spinner.svg" width="540" height="280" alt="Фото Лестница из бука со стеклянным ограждением">
+              </div>
+            </a>
+            <div class="item__bottom">
+              <div class="item__icons">
+                <div class="item__icon photo">
+                  <svg class="item__svg" width="40" height="40">
+                      <use xlink:href="img/sprite_auto.svg#icon-photo"></use>
+                    </svg>
+                </div>
+                <div class="item__icon video">
+                  <svg class="item__svg" width="40" height="40">
+                      <use xlink:href="img/sprite_auto.svg#icon-video"></use>
+                    </svg>
+                </div>
+              </div>
+              <button class="item__button button" type="button">Заказать</button>
+            </div>
+
+          </li>
+          <li class="catalog__item item">
+            <a class="item__link" href="#">
+              <div class="item__up">
+                <h3 class="item__heading">Квартира в стиле лофт</h3>
+                <div class="item__overlay"></div>
+                <img class="item__img lazyload" src="img/catalog-3.jpg" data-srcset="img/catalog-3.jpg" srcset="img/spinner.svg" width="540" height="280" alt="Фото Квартира в стиле лофт">
+              </div>
+            </a>
+            <div class="item__bottom">
+              <div class="item__icons">
+                <div class="item__icon photo">
+                  <svg class="item__svg" width="40" height="40">
+                      <use xlink:href="img/sprite_auto.svg#icon-photo"></use>
+                    </svg>
+                </div>
+                <div class="item__icon video">
+                  <svg class="item__svg" width="40" height="40">
+                      <use xlink:href="img/sprite_auto.svg#icon-video"></use>
+                    </svg>
+                </div>
+              </div>
+              <button class="item__button button" type="button">Заказать</button>
+            </div>
+
+          </li>
+          <li class="catalog__item item">
+            <a class="item__link" href="#">
+              <div class="item__up">
+                <h3 class="item__heading">Загородный дом в современном стиле</h3>
+                <div class="item__overlay"></div>
+                <img class="item__img lazyload" src="img/catalog-4.jpg" data-srcset="img/catalog-4.jpg" srcset="img/spinner.svg" width="540" height="280" alt="Фото Загородный дом в современном стиле">
+              </div>
+            </a>
+            <div class="item__bottom">
+              <div class="item__icons">
+                <div class="item__icon photo">
+                  <svg class="item__svg" width="40" height="40">
+                      <use xlink:href="img/sprite_auto.svg#icon-photo"></use>
+                    </svg>
+                </div>
+                <div class="item__icon video">
+                  <svg class="item__svg" width="40" height="40">
+                      <use xlink:href="img/sprite_auto.svg#icon-video"></use>
+                    </svg>
+                </div>
+              </div>
+              <button class="item__button button" type="button">Заказать</button>
+            </div>
+          </li>
+        </ul>
+        <button class="catalog__show-more">Показать еще ...</button>
+      </div>
+    </section>
+    <section class="pay">
+      <div class="container">
+        <h2 class="pay__heading heading">Оплата проекта</h2>
+        <ul class="pay__list accordeon">
+          <li class="pay__item">
+            <div class="pay__stage accordeon__button">Этап 1</div>
+            <div class="pay__info accordeon__content">Ответ</div>
+          </li>
+          <li class="pay__item">
+            <div class="pay__stage accordeon__button">Этап 2</div>
+            <div class="pay__info accordeon__content">Ответ</div>
+          </li>
+          <li class="pay__item">
+            <div class="pay__stage accordeon__button">Этап 3</div>
+            <div class="pay__info accordeon__content">Ответ</div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="callback">
+      <div class="container">
+        <h2 class="callback__heading heading">Оставьте заявку на консультацию</h2>
+        <div class="form-wrapper">
+          <form class="form">
+            <input class="form__input" type="text" name="name" required="" placeholder="Ваше имя">
+            <input class="form__input" id="tel" type="tel" name="phone" required="" placeholder="+7(___)___-__-__">
+            <div class="form__button-container">
+              <button class="form__button button"><span>Отправить заявку</span></button>
+              <span class="form__button-info">Нажимая кнопку, вы даете согласие на <a href="" title="обработку персональных данных">обработку персональных данных</a></span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__upper">
+        <a class="footer__logo" href="/">
+          <svg class="footer__svg" width="313" height="90">
+            <use xlink:href="img/sprite_auto.svg#icon-logo-white"></use>
+          </svg>
+        </a>
+        <div class="footer__contacts">
+          <a class="footer__tel" href="tel:+78124128585" title="+7 (812) 412-85-85">+7 (812) 412-85-85</a>
+          <div class="footer__socials">
+            <a class="footer__social" href="" title="Instagram">
+              <img src="img/icons/icon-inst.svg" alt="Instagram" width="27" height="27">
+            </a>
+            <a class="footer__social" href="" title="Youtube">
+              <img src="img/icons/icon-youtube.svg" alt="Youtube" width="30" height="30">
+            </a>
+            <a class="footer__social" href="" title="Vk">
+              <img src="img/icons/icon-vk.svg" alt="Vk" width="30" height="30">
+            </a>
+            <a class="footer__social" href="" title="Facebook">
+              <img src="img/icons/icon-fb.svg" alt="Facebook" width="14" height="30">
+            </a>
+          </div>
+        </div>
+        <nav class="footer__nav">
+          <div class="container">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link" title="О нас">О нас</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link" title="Лестницы">Лестницы</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link" title="Интерьер">Интерьер</a>
+              </li>
+              <li class="footer__item">
+                <a href="reviews.html" class="footer__link" title="Мебель на заказ">Мебель на заказ</a>
+              </li>
+              <li class="footer__item">
+                <a href="contacts.html" class="footer__link" title="Цены">Цены</a>
+              </li>
+              <li class="footer__item">
+                <a href="contacts.html" class="footer__link" title="Наши работы">Наши работы</a>
+              </li>
+              <li class="footer__item">
+                <a href="contacts.html" class="footer__link" title="Контакты">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="footer__lower">
+        <ul class="do__cards">
+          <li class="do__card">
+            <h3 class="do__sub-heading">Лестницы</h3>
+            <div class="do__list">
+              <a class="do__item" href="#" title="Деревянные">Деревянные</a>
+              <a class="do__item" href="#" title="Металлокаркас лестниц ">Металлокаркас лестниц (отдельно каркас и под ключ)</a>
+              <a class="do__item" href="#" title="Отделка бетонных лестниц">Отделка бетонных лестниц</a>
+              <a class="do__item" href="#" title="Отделка металлокаркаса">Отделка металлокаркаса лестницы</a>
+              <a class="do__item" href="#" title="Ограждения: нержавеющее, стекло, ковка">Ограждения: нержавеющее, стекло, ковка</a>
+            </div>
+            </li><li class="do__card">
+              <h3 class="do__sub-heading">Интерьеры</h3>
+              <div class="do__list">
+                <a class="do__item" href="#" title="Домашние">Домашние</a>
+                <a class="do__item" href="#" title="Кабинеты">Кабинеты</a>
+                <a class="do__item" href="#" title="Стеновые панели">Стеновые панели</a>
+                <a class="do__item" href="#" title="Коммерческие (магазины, рестораны, бары)">Коммерческие (магазины, рестораны, бары)</a>
+                <a class="do__item" href="#" title="Фальшь-балки и реечные конструкции">Фальшь-балки и реечные конструкции</a>
+              </div>
+            </li>
+            <li class="do__card">
+              <h3 class="do__sub-heading">Мебель на заказ</h3>
+              <div class="do__list">
+                <a class="do__item" href="#" title="Из МДФ">Из МДФ</a>
+                <a class="do__item" href="#" title="Лофт">Лофт</a>
+                <a class="do__item" href="#" title="Шкафы">Шкафы</a>
+                <a class="do__item" href="#" title="Из массива">Из массива</a>
+                <a class="do__item" href="#" title="Гардеробные">Гардеробные</a>
+              </div>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <section class="modal modal--closed" data-modal-content="1">
+    <div class="modal__overlay">
+      <div class="modal__container">
+        <button class="modal__button-close" type="button" aria-label="Закрыть модальное окно"></button>
+        <h2 class="modal__heading heading">О нас</h2>
+        <p class="modal__info">Производство столярных изделий существует с 1998 года и территориально располагается в Санкт-Петербурге. В производстве не используем покупной мебельный щит, делаем все сами. По фотографии клиента (в пределах разумного) можем изготовить любую
+          продукцию. Работаем с широким ассортиментом массива и МДФ, что позволяет подобрать клиенту под свой бюджет желаемую продукцию. Комбинируем материалы.</p>
+      </div>
+    </div>
+  </section>
+  <section class="modal modal--closed modal--success" data-modal-content="2">
+    <div class="modal__overlay">
+      <div class="modal__container">
+        <button class="modal__button-close" type="button" aria-label="Закрыть модальное окно"></button>
+        <img class="modal__tick" src="img/icons/icon-tick.svg" width="114" height="114" alt="Значок галка">
+        <h2 class="modal__heading heading">Спасибо за заявку!</h2>
+        <p class="modal__info">Наш специалист вам перезвонит</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="modal modal--closed modal--fail" data-modal-content="3">
+    <div class="modal__overlay">
+      <div class="modal__container">
+        <button class="modal__button-close" type="button" aria-label="Закрыть модальное окно"></button>
+        <h2 class="modal__heading heading">Успех</h2>
+        <p class="modal__info">а</p>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Picture element HTML5 shiv
+    document.createElement("picture");
+  </script>
+  <script src="js/vendors.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
